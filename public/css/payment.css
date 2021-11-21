@@ -1,0 +1,636 @@
+body .pay_list {
+	background-color: #E6E6E6
+}
+
+body .pay_list li .pay_list_name {
+	text-indent: 0;
+	color: #333
+}
+
+body .pay_list .orgin {
+	background-color: #fff;
+	border-top: 3px solid #F9743A;
+	height: 37px;
+	overflow: hidden
+}
+
+body .pay_list .orgin .pay_list_name {
+	color: #F9743A;
+	line-height: 34px;
+	height: 34px;
+	margin-bottom: 3px;
+	display: block
+}
+
+body .pay_list .acount_box_r {
+	font-size: 13px
+}
+
+body .acount_box_r {
+	font-size: 13px
+}
+
+body .top_up_num_list_div {
+	width: 100%
+}
+
+body .list_money span {
+	left: -59px;
+	top: 7px;
+	right: auto;
+	transform: rotateZ(-45deg);
+	font-size: 12px;
+	background-color: #ff5757;
+	font-weight: 800;
+}
+
+body .list_money .popular_text {
+	font-size: 19px;
+	font-weight: 800;
+	color: #333
+}
+
+body .list_money .popular_bg {
+	width: 18px;
+	height: 18px;
+	background: url(/static/images/newpopularity.png) no-repeat center;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-right: 3px;
+}
+
+body .top_up_num_list_libg .highlight {
+	width: 100%;
+	height: 100%;
+	background: url(/static/images/top_up_num_list_libg2.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99
+}
+
+body .amount_payable_money span,body .list_money_1 {
+	color: #FF444F
+}
+
+body .pay_now {
+	width: 160px;
+	font-size: 13px;
+	margin-left: 220px
+}
+
+body .input_info input {
+	border-radius: 6px
+}
+
+.cf:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.section_content {
+	width: 1000px;
+	min-height: 600px;
+	margin: 0 auto;
+	position: relative;
+	margin: 20px auto 0 auto
+}
+
+.people_info {
+	width: 100%;
+	height: 40px;
+	background-color: #E6E6E6;
+	font-size: 16px;
+	color: #9f9f9f;
+	line-height: 40px
+}
+
+.people_info_num {
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	display: inline-block;
+	padding: 0 0 0 20px;
+	font-size: 16px;
+	color: #333
+}
+
+.people_info_name {
+	font-size: 16px;
+	color: #ff6826;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px
+}
+
+.people_info_money {
+	font-size: 20px;
+	color: #ff6826;
+	height: 40px;
+	line-height: 40px
+}
+
+.people_info_pic {
+	height: 40px;
+	line-height: 40px
+}
+
+.people_content1 {
+	float: left;
+	height: 40px
+}
+
+.people_content2 {
+	margin-right: 32px;
+	float: right;
+	height: 40px
+}
+
+.top_up_content {
+	width: 804px;
+	padding: 40px 0 20px 196px;
+	background: #FFF
+}
+
+.top_up_num_name {
+	width: 100%;
+	height: 22px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #333;
+	padding-bottom: 14px;
+	padding-top: 34px
+}
+
+.amount_payable_text {
+	width: 72px;
+	float: left;
+	padding-left: 4px;
+	font-size: 14px;
+	text-align: left;
+	color: #666;
+	line-height: 33px
+}
+
+.top_up_num_list {
+	padding-bottom: 11px;
+	width: 804px;
+	float: left;
+	list-style: none
+}
+
+.top_up_num_list li {
+	width: 190px;
+	height: 80px;
+	float: left;
+	padding: 4px 4px 4px 4px;
+	margin-right: 20px;
+	position: relative;
+	cursor: pointer;
+	border-radius: 5px
+}
+
+.top_up_num_list_div {
+	width: 188px;
+	height: 78px;
+	background: #FFF;
+	border: 1px solid #E0E0E0;
+	overflow: hidden;
+	border-radius: 7px
+}
+
+.top_up_num_list_libg {
+	background: url(/images/top_up_num_list_libg.png) no-repeat center
+}
+
+.top_up_num_list_click_div {
+	color: #ff6826
+}
+
+.list_money {
+	color: #181716;
+	font-size: 14px;
+	text-align: center;
+	padding: 14px 0 0 0;
+	position: relative
+}
+
+.list_money span {
+	color: #fff;
+	display: block;
+	position: absolute;
+	background-color: red;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	transform: rotateZ(40deg);
+	right: -55px;
+	top: 9px
+}
+
+.list_money_1 {
+	color: #ff6826;
+	font-size: 14px;
+	text-align: center;
+}
+
+.list_money_1.poplist{
+	background-color: #fafafa;
+}
+
+.list_money_give {
+	width: 100%;
+	height: 17px;
+	font-size: 12px;
+	text-align: center;
+	color: #ababab;
+	line-height: 17px
+}
+
+.amount_payable {
+	width: 100%;
+	height: 28px;
+	padding: 15px 0 0 0;
+	line-height: 28px
+}
+
+.amount_payable_money {
+	font-size: 14px;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	color: #666
+}
+
+.amount_payable_money span {
+	font-size: 20px;
+	color: #f9743a
+}
+
+.select_pay {
+	margin-top: 30px
+}
+
+.select_pay_ul {
+	padding: 0;
+	float: left;
+	margin-left: 25px;
+	list-style: none
+}
+
+.select_pay_ul_normal {
+	float: left;
+	position: relative;
+	border: 1px solid #ddd;
+	margin-right: 11px;
+	border-radius: 2px;
+	cursor: pointer
+}
+
+.select_pay_ul_img {
+	width: 100%;
+	display: inline-block
+}
+
+.pay_now {
+	margin-top: 40px;
+	width: 108px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background: #F9743A;
+	box-shadow: 0 2px 4px 0 rgba(249,116,58,.5);
+	border-radius: 100px;
+	margin-left: 234px;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	color: #FFF
+}
+
+.wrap-s1-bottom {
+	width: 384px;
+	height: 16px;
+	font-size: 12px;
+	color: #333;
+	line-height: 16px;
+	text-align: center;
+	margin: 80px 0 0 123px
+}
+
+.wrap-s1-bottom em {
+	color: #ff6826
+}
+
+.input_info {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0
+}
+
+.input_info input {
+	width: 152px;
+	height: 34px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #181716;
+	text-indent: 1em;
+	background: #FFF;
+	border: 1px solid #E0E0E0;
+	border-radius: 20px;
+	outline: 0
+}
+
+.yuan {
+	font-size: 14px;
+	color: #666
+}
+
+.money_input_text {
+	width: 80px;
+	float: left;
+	padding-left: 4px;
+	font-size: 14px;
+	text-align: left;
+	color: #666;
+	line-height: 34px
+}
+
+.money_input {
+	width: 100%;
+	height: 36px;
+	display: none;
+	padding: 15px 0 0 0
+}
+
+.money_all {
+	color: #888;
+	font-size: 14px;
+	display: none
+}
+
+.change_acount_box {
+	background: #F6F6F6;
+	padding: 8px 16px 8px 12px;
+	width: 603px
+}
+
+.acount_box_head {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fff;
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	position: relative
+}
+
+.acount_box_vip {
+	width: 12px;
+	height: 12px;
+	background-image: url(/images/vip.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 28px;
+	top: 28px
+}
+
+.acount_box_info {
+	line-height: 44px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 11px
+}
+
+.acount_box_l {
+	float: left
+}
+
+.acount_box_name {
+	max-width: 300px
+}
+
+.acount_box_t {
+	line-height: 36px;
+	margin: 4px 0;
+	border: 0;
+	outline: 0;
+	padding: 0 0 0 10px;
+	width: 498px;
+	font-size: 14px;
+	color: #999;
+	background-color: #fff;
+	background-image: url(/images/arrow_down.png);
+	background-repeat: no-repeat;
+	background-position: 473px 15px
+}
+
+.cache {
+	width: 498px;
+	z-index: 99;
+	top: 49px;
+	background-color: #fff
+}
+
+.cache .item {
+	width: 488px;
+	line-height: 37px;
+	color: #999;
+	background-color: #fff;
+	font-size: 14px;
+	color: #333;
+	margin: 0 0 0 10px;
+	border-bottom: 1px solid #eee;
+	cursor: pointer
+}
+
+.cache .item .delete {
+	width: 37px;
+	height: 37px;
+	float: right;
+	background-image: url(/images/del.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer
+}
+
+.acount_box_r {
+	margin: 6px 0 0 0;
+	width: 88px;
+	line-height: 32px;
+	float: right;
+	background: #F9743A;
+	box-shadow: 0 2px 4px 0 rgba(249,116,58,.5);
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer
+}
+
+.order_info {
+	height: 60px;
+	padding: 30px 0 0 129px
+}
+
+.order_info_head {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #E6E6E6;
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%
+}
+
+.order_info_id,.order_info_name {
+	width: 200px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #333;
+	padding: 5px 0 0 14px
+}
+
+.order_count,.order_money,.order_warn {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0;
+	line-height: 24px;
+	text-align: center;
+	width: 100%
+}
+
+.order_money span {
+	color: #F9743A
+}
+
+body .demo-class .layui-layer-title {
+	background: #f6f6f6;
+	color: #fff;
+	border: none;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	color: #888;
+	padding: 0
+}
+
+body .demo-class .layui-layer-content {
+	padding: 0;
+	height: 196px
+}
+
+body .demo-class .layui-layer-content .msg {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 102px
+}
+
+body .demo-class .layui-layer-btn {
+	text-align: center;
+	padding: 0 0 30px 0
+}
+
+body .demo-class .layui-layer-btn .layui-layer-btn0 {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	border: 0;
+	background: #F9743A;
+	box-shadow: 0 2px 4px 0 rgba(249,116,58,.5);
+	font-size: 16px;
+	color: #FFF;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px
+}
+
+body .demo-class .layui-layer-btn .layui-layer-btn1 {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	border: 0;
+	background: #999;
+	box-shadow: 0 2px 4px 0 rgba(153,153,153,.5);
+	font-size: 16px;
+	color: #FFF;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px
+}
+
+.change_acount_bt {
+	width: 100%;
+	height: 22px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #333;
+	padding-bottom: 14px
+}
+
+.activity_notice_message {
+	width: 100%;
+	font-size: 16px;
+	line-height: 22px;
+	color: #333;
+	padding-bottom: 14px;
+	padding-top: 34px;
+	float: left
+}
+
+#__text_desc {
+	padding-top: 20px;
+	width: 600px
+}
+
+#__text_desc h6 {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #333
+}
+
+#__text_desc p {
+	color: #888;
+	font-size: 14px
+}
+
+.pay_list {
+	list-style: none;
+	margin-top: 16px;
+	background: #505050
+}
+
+.pay_list li {
+	width: 154px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	font-size: 16px;
+	color: #FFF
+}
+
+.pay_list_name {
+	font-size: 16px;
+	color: #FFF;
+	display: inline-block;
+	text-indent: 33px
+}
+
+.orgin {
+	background-color: #F9743A
+}
